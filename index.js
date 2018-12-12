@@ -26,3 +26,4 @@ var ehDiaUtil = function(date) {
 };
 
 module.exports = ehDiaUtil;
+module.exports = getBraziliansYearHolidays;
