@@ -25,5 +25,7 @@ var ehDiaUtil = function(date) {
     return true;
 };
 
-module.exports = ehDiaUtil;
-module.exports = getBraziliansYearHolidays;
+module.exports = {
+    ehDiaUtil : ehDiaUtil,
+    getBraziliansYearHolidays : getBraziliansYearHolidays
+};
